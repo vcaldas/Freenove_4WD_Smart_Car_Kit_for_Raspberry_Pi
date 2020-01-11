@@ -59,7 +59,7 @@ class Server:
             self.connection.close()
             self.connection1.close()
         except Exception as  e:
-            print('\n'+"No client connection")
+            print(('\n'+"No client connection"))
          
     def Reset(self):
         self.StopTcpServer()
